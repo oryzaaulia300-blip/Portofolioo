@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Web</title>
+    <!-- Menghubungkan ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navigasi -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Portofolio.</a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Kemampuan</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 2. Tentang Saya -->
+    <section id="about">
+        <div class="about-text">
+            <h2>Halo, Saya Oryza Aulia Ramadhan Anafin</h2>
+            <h1>Saya Seorang <span>Mahasiswa Semester 3</span></h1>
+            <p>Saya merupakan mahasiswa Ilmu Komputer stambuk 2025</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+        <div class="about-image">
+            <img src="assets/Pas foto 4 x 6.jpeg" alt="Foto Profil">
+        </div>
+    </section>
+
+    <!-- 3. Kemampuan -->
+    <section id="skills">
+        <h2 class="section-title">Kemampuan</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <span class="skill-icon">🌐</span>
+                <h3>HTML + CSS</h3>
+                <p>Struktur Semantik & Styling</p>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">🖥️</span>
+                <h3>C++</h3>
+                <p>Desktop Application & Qt Framework</p>
+            </div>
+            <div class="skill-card">
+                <span class="skill-icon">📐</span>
+                <h3>Pascal</h3>
+                <p>Algoritma & Dasar Pemrograman</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Proyek -->
+    <section id="projects">
+        <h2 class="section-title">Proyek Terbaru</h2>
+        <div class="projects-grid">
+            <!-- Proyek 1 (Seluruh card bisa diklik) -->
+            <a href="https://github.com/ElleIkanLelet/manja.git" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-info">
+                    <h3>Game Ular Sederhana</h3>
+                    <p>Permainan klasik mengumpulkan makanan untuk meraih skor tertinggi.</p>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Proyek 2 (Seluruh card bisa diklik) -->
+            <a href="https://github.com/oryzaaulia300-blip/SistemKasirWeb.git" target="_blank" rel="noopener noreferrer" class="project-card">
+                <div class="project-info">
+                    <h3>Sistem Kasir Sederhana</h3>
+                    <p>Antarmuka pengguna untuk aplikasi manajemen kasir berbasis web.</p>
+                    <div class="project-tags">
+                        <span>Html</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 5. Kontak (WhatsApp, Instagram, GitHub, Email) -->
+    <section id="contact">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <p class="contact-subtitle">Mari terhubung! Anda bisa menghubungi atau melihat karya saya melalui platform berikut:</p>
+        
+        <div class="contact-links">
+            <a href="https://wa.me/6281376891806" target="_blank" class="contact-card whatsapp">
+                <span class="contact-icon">💬</span>
+                <h3>WhatsApp</h3>
+            </a>
+
+            <a href="https://instagram.com/ryyyyz1" target="_blank" class="contact-card instagram">
+                <span class="contact-icon">📸</span>
+                <h3>Instagram</h3>
+            </a>
+
+            <a href="https://github.com/oryzaaulia300-blip" target="_blank" class="contact-card github">
+                <span class="contact-icon">💻</span>
+                <h3>GitHub</h3>
+            </a>
+            
+            <a href="mailto:oryzaaulia300@gmail.com" target="_blank" class="contact-card email">
+                <span class="contact-icon">🖂</span>
+                <h3>Email</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer>
+        <p>&copy; 2026 Oryza Aulia Ramadhan Anafin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
